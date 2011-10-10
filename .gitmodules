@@ -1,3 +1,6 @@
 [submodule "TomTom.Tools"]
 	path = TomTom.Tools
 	url = git@github.com:zippy1981/TomTom.Tools.git
+[submodule "EventLogExamples"]
+	path = EventLogExamples
+	url = git@gist.github.com:1273688.git
