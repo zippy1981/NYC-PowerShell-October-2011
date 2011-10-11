@@ -18,6 +18,7 @@ Add-Type -Path "$($scriptFolder)\..\TomTom.Tools\bin\Debug\TomTom.Tools.dll"
 
 # Extract
 $pois = $parser.ReadOV2("$($scriptFolder)\..\data\Wal-Mart_United States & Canada.ov2")
+$pois | Out-GridView
 
 # Transform
 $cleansedPois = $pois | ForEach-Object{
